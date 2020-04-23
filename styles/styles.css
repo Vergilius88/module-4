@@ -1,0 +1,199 @@
+.body {
+  width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  display: block;
+  height: 108px;
+  margin: 0 auto 80px;
+}
+
+.logo {
+  display: inline-block;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgb(85, 82, 82);
+  padding: 38px;
+}
+.logo::first-letter {
+  font-weight: 900;
+  color: rgb(26, 188, 156);
+}
+.navigation {
+  display: inline-block;
+  padding: 45px;
+  float: right;
+}
+.header::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0px;
+}
+
+.navigation li {
+  display: inline-block;
+}
+.link-nav {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: content-box;
+  color: rgb(15, 1, 1);
+  margin-right: 34px;
+}
+.link-nav:hover {
+  color: rgb(26, 188, 156);
+}
+
+.tagline {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 90px;
+  color: rgb(81, 81, 81);
+  display: block;
+  width: 500px;
+  margin: 0px auto 120px;
+  text-align: center;
+}
+.tagline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: 170px;
+  height: 7px;
+  width: 164px;
+  background-color: rgb(26, 188, 156);
+}
+
+.goods {
+  margin: 0 auto 104px;
+}
+
+.card {
+  list-style-type: none;
+  background-color: rgb(233, 240, 253);
+  float: left;
+}
+.card:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.card:not(:nth-last-child(-n + 4)) {
+  margin-bottom: 30px;
+}
+
+.name-goods {
+  display: inline-block;
+  margin: 0 auto;
+  width: 185px;
+  background-color: rgb(50, 50, 50);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  padding-left: 15px;
+  font-size: 18px;
+  line-height: 40px;
+  color: white;
+}
+.price {
+  display: inline-block;
+  width: 55px;
+  background-color: rgb(140, 140, 140);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 40px;
+  color: white;
+}
+.card:hover .name-goods {
+  background-color: rgb(26, 188, 156);
+}
+.card:hover .price {
+  background-color: rgb(127, 217, 199);
+}
+.image {
+  display: block;
+}
+
+.products {
+  display: inline-block;
+  margin: 0px;
+  padding: 0;
+}
+
+.container {
+  display: inline-block;
+  width: 350px;
+  text-decoration: none;
+  float: left;
+}
+
+.container:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.list-of-articles {
+  padding: 0px;
+  margin: 0px;
+}
+
+.blog-title {
+  display: inline-block;
+  width: 350px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0px;
+  color: rgb(85, 82, 82);
+}
+.blog-title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 136px;
+  background-color: rgb(78, 198, 171);
+}
+.paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 14px;
+  color: rgb(85, 82, 82);
+}
+
+.blog-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 12px;
+  width: 160px;
+  height: 50px;
+  background-color: rgb(78, 198, 171);
+}
+.blogs::after {
+  display: table;
+  content: "";
+  clear: both;
+}
