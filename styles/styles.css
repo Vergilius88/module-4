@@ -1,3 +1,9 @@
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
 .body {
   width: 1110px;
   margin: 0 auto;
@@ -27,11 +33,6 @@
   display: inline-block;
   padding: 45px;
   float: right;
-}
-.header::after {
-  display: table;
-  content: "";
-  clear: both;
 }
 
 .nav {
@@ -72,7 +73,6 @@
 .tagline::after {
   content: "";
   display: block;
-  position: absolute;
   margin-left: 170px;
   height: 7px;
   width: 164px;
@@ -163,7 +163,7 @@
 .blog-title:after {
   content: "";
   display: block;
-  position: absolute;
+  margin-top: 8px;
   height: 3px;
   width: 136px;
   background-color: rgb(78, 198, 171);
@@ -191,9 +191,4 @@
   width: 160px;
   height: 50px;
   background-color: rgb(78, 198, 171);
-}
-.blogs::after {
-  display: table;
-  content: "";
-  clear: both;
 }
